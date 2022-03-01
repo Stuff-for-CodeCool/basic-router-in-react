@@ -24,7 +24,7 @@ const App = () => {
 
 render(
     <StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename="basic-router-in-react">
             <App />
         </BrowserRouter>
     </StrictMode>,
