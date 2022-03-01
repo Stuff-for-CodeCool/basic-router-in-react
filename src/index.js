@@ -1,6 +1,6 @@
 import React, { StrictMode } from "react";
 import { render } from "react-dom";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Navigation from "./components/Navigation";
 import Home from "./components/Home";
@@ -24,9 +24,9 @@ const App = () => {
 
 render(
     <StrictMode>
-        <BrowserRouter basename="basic-router-in-react">
+        <HashRouter basename="basic-router-in-react">
             <App />
-        </BrowserRouter>
+        </HashRouter>
     </StrictMode>,
     document.querySelector("#root")
 );
