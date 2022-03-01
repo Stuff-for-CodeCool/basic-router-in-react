@@ -24,7 +24,7 @@ const App = () => {
 
 render(
     <StrictMode>
-        <HashRouter basename="basic-router-in-react">
+        <HashRouter>
             <App />
         </HashRouter>
     </StrictMode>,
